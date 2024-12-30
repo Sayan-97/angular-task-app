@@ -1,0 +1,4 @@
+<div *ngFor="let task of tasks">
+  <p>{{ task.title }}</p>
+  <button (click)="onDelete(task.id)">Delete</button>
+</div>
